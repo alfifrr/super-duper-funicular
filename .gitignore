@@ -1,0 +1,37 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Flask specific
+instance/
+.webassets-cache
+
+# SQLite database files (if using SQLAlchemy with SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log

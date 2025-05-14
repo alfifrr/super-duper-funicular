@@ -1,0 +1,18 @@
+[project]
+name = "revobank-backend"
+version = "0.1.0"
+description = "Backend API for Revobank banking application"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask",
+    "flask-bcrypt",
+    "flask-jwt-extended",
+    "flask-sqlalchemy",
+    "python-dotenv",
+    "psycopg2-binary",
+    "gunicorn",
+    "flask-swagger-ui",
+    "flask-migrate",
+    "sqlalchemy-utils",
+]
