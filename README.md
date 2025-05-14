@@ -52,11 +52,6 @@ You can also explore the API documentation online here:
 
 ---
 
-### Tools used
-Certainly! Here's a clean, well-structured **Markdown** documentation for your `requirements.txt` content, suitable for inclusion in a README or docs file:
-
----
-
 # Project Dependencies
 
 This project uses the following Python packages, managed via `pyproject.toml` and compiled into `requirements.txt` using `uv pip compile`.
